@@ -3,18 +3,17 @@
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.odd.special{
+.adjust-font-size{
     font-size: 24px;
 }
 
-#title {
+#two {
     color:rgb(2, 2, 249);
     font-size: 36px;
 }
 
-.even#title{
+#four{
     color: rgb(0,0,0);
     background-color: #90ee90;
-    font-size: 24px;
     font-weight: bold;
 }
