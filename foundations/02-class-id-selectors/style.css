@@ -6,3 +6,15 @@
 .odd.special{
     font-size: 24px;
 }
+
+#title {
+    color:rgb(2, 2, 249);
+    font-size: 36px;
+}
+
+.even#title{
+    color: rgb(0,0,0);
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
