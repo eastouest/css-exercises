@@ -12,13 +12,22 @@ body {
 
 .title {
   background: #e3f4ff;
+  /* 
+  margin-top: 0;
+  margin-bottom: 8px;*/
   font-size: 16px;
   padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+   /* You don't need to mention the repeated/identical margins (top, left, right) here. Solution:
+ 
+  margin-bottom: 8px;*/
   margin: 8px 0 8px 0;
+   /* You don't need to mention the repeated padding here. Solution:
+ 
+  padding: 16px 8px;*/
   padding: 16px 8px 16px 8px;
 }
 
@@ -32,6 +41,9 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  /* You don't need to mention the repeated padding here. Solution:
+ 
+  padding: 8px 24px;*/
   padding: 8px 24px 8px 24px;
   display: block;
   margin: 0 auto;
