@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,23 +11,19 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
+  margin-bottom: 32px;
 }
 
-.image-container{
-  margin-top: 32px;
-}
-
-.images {
+.container{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /* this is more elegant than futzing with margins e.g. margin: 0 52px 0 52px */
+  gap: 52px;
 }
 
-.images-item{
-  margin: 0 52px 0 52px;
-  width: 200px;
-  text-align: center;
+.info {
+  /* you're able to set max-width as well as width */
+  max-width: 200px;
 }
 
 /* do not edit this footer */
