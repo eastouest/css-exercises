@@ -14,21 +14,13 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   padding: 8px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.left-items {
+.left, .right {
   border: 1px solid #fff;  /* For debugging */
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.buttons {
-  margin-left: 20px;
-  display: flex;
-  justify-content: flex-end;
+  gap: 16px;
   align-items: center;
 }
 
@@ -69,5 +61,5 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 16px;
 }
