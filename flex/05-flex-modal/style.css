@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* You need to add flex to make all items in the modal arrange next to each other */
   display: flex;
   gap: 16px;
   padding: 16px;
@@ -39,6 +40,7 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  /* This prevents the icon from getting shrunk once you've added flex to the modal */
   flex-shrink: 0;
 }
 
